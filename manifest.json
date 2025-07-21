@@ -1,0 +1,16 @@
+{
+    "manifest_version" : 3,
+    "name" : "ToDoExtension",
+    "description" : "Organize your work each day with a handy todo list extension",
+    "version" : "1.0",
+    "action": {
+        "default_popup":"popup/popup.html"
+    },
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "permissions": [
+        "storage"
+    ]
+}
